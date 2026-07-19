@@ -61,7 +61,10 @@ export const Home = () => {
         <div class="hero-visual">
           <div class="hero-image-frame">
             <div class="hero-image-circle">
-              <img src="${samanthaImg}" alt="Pedagoga — Raíces y Alas" class="hero-photo">
+              <img src="${samanthaImg}" alt="Samantha Cruellas García, psicopedagoga"
+                   class="hero-photo"
+                   width="1086" height="1448"
+                   loading="eager" fetchpriority="high" decoding="async">
             </div>
 
             <div class="hero-floating-card hero-floating-card-1">

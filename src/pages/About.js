@@ -6,7 +6,10 @@ export const About = () => {
       <div class="about-grid">
         <div class="about-image-wrapper">
           <div class="profile-frame">
-            <img src="${profilePic}" alt="Samantha Cruellas García" class="profile-image" />
+            <img src="${profilePic}" alt="Samantha Cruellas García, psicopedagoga"
+                 class="profile-image"
+                 width="1086" height="1448"
+                 loading="lazy" decoding="async" />
           </div>
         </div>
         <div class="about-content">

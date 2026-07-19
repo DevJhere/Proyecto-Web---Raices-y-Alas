@@ -22,7 +22,10 @@ export const Footer = () => {
 
           <div class="footer-brand">
             <a href="/" class="logo-link" data-link>
-              <img src="${logoImg}" alt="Raíces y Alas Logo" class="footer-logo-img" />
+              <img src="${logoImg}" alt="Raíces y Alas"
+                   class="footer-logo-img"
+                   width="46" height="46"
+                   loading="lazy" decoding="async" />
               <div class="logo-text">
                 <span class="logo-name">Raíces y Alas</span>
                 <span class="logo-tagline">Pedagogía Infantil</span>

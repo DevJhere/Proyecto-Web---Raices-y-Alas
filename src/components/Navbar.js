@@ -5,7 +5,11 @@ export const Navbar = () => {
     <nav class="navbar" id="main-navbar">
       <div class="navbar-inner">
         <a href="/" class="logo-link" data-link>
-          <img src="${logoImg}" alt="Raíces y Alas Logo" class="logo-icon" style="object-fit: contain;" />
+          <img src="${logoImg}" alt="Raíces y Alas"
+               class="logo-icon"
+               width="52" height="52"
+               loading="eager" fetchpriority="high" decoding="async"
+               style="object-fit: contain;" />
           <div class="logo-text">
             <span class="logo-name">Raíces y Alas</span>
             <span class="logo-tagline">Pedagogía Infantil</span>
