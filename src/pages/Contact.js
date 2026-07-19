@@ -1,4 +1,4 @@
-const WA_NUMBER = import.meta.env.VITE_WHATSAPP_NUMBER ?? '';
+const WA_NUMBER = '+34 614 24 61 23';
 const WA_NUMBER_CLEAN = WA_NUMBER.replace(/\D/g, '');
 
 export const Contact = () => {
